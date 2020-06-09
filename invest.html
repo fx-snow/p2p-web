@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2P首页</title>
+    <!-- bootstrap4/CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap4/CSS/bootstrap.min.css">
+    <!-- reset.css 重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./dist/css/common.min.css">
+    <!-- index.main.css -->
+    <link rel="stylesheet" href="./dist/css/invest.min.css">
+</head>
+<body>
+ <!-- 头部 -->
+ <div id="header">
+  <nav class="navbar navbar1 navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <span class="imga"><img src="./images/num.png" alt=""></span>
+              <a class="navbar-brand" href="#">028-86261949</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+  
+                  </ul>
+                  <span class="navbar-text">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">首页</a>
+                          </li>
+                          
+                          <li class="nav-item" id="loginOut">
+                              <a class="nav-link" href="#">登录</a>
+                          </li>
+                          <li class="nav-item" id="regUname">
+                            <a class="nav-link" href="#">快速注册</a>
+                        </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">帮助</a>
+                          </li>
+                          <!-- <li class="nav-item">
+                              <a class="nav-link" href="#">联系客服</a>
+                          </li> -->
+  
+                      </ul>
+                  </span>
+              </div>
+          </div>
+  
+      </nav>
+  
+  
+      <nav class="navbar navbar2 navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="./images/logo.png" alt="">
+              </a>
+  
+  
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">首页</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#invest">我要投资</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#borrow">我要借款</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#parsonal">个人中心</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">新手指引</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">关于我们</a>
+                  </li>
+              </ul>
+  
+  
+          </div>
+  
+      </nav>
+  
+</div>
+
+
+<!-- 内容 -->
+<div id="main" class="container">
+    <div>
+        <h4 class="main-title">投资列表</h4>
+        <div class="main-state">
+            <span>标的状态</span>
+            <div class="lb">
+                    
+                    <label>
+                        <input  type="text" placeholder="还款中" >
+                    </label>
+                    <label>
+                        <input type="text" placeholder="招标中" >
+                    </label>
+                    <label >
+                        <input class="active"  type="text" placeholder="全部" >
+                    </label>
+                    
+
+            </div>
+            
+            
+        </div>
+
+        <!-- 进行中借款 -->
+    <div id="borrowing" class="container">
+        
+        <table class="borrowbot">
+          <thead>
+            <tr>
+              <th>借款人</th>
+              <th>借款标题</th>
+              <th>年利率</th>
+              <th>金额</th>
+              <th>还款方式</th>
+              <th>进度</th>
+              <th width="80px">操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <th>zs</th>
+                <th>给我2000度过难关</th>
+                <th>10.00%</th>
+                <th>2,000.00</th>
+                <th>按月分期还款</th>
+                <th>100.00%</th>
+                <th  class="style:width:50px;"><button type="button" class="but">查看</button></th>
+            </tr>
+            
+        </tbody>
+  
+        </table>
+        <!-- <div class="text">
+          <p>目前暂时没有进行中的借款</p>
+        </div> -->
+        
+        
+        
+        
+      </div>
+    </div>
+</div>
+
+
+<!-- 尾部 -->
+<div id="footer">
+<div class="container">
+  <div class="row">
+      <div class="col-sm-8">
+          <p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+          <p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+          <p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+          <p>电  话： 028-86261949 / 400-808-6840 &emsp; 邮箱： yuandaima@itsource.cn</p>
+          <p>
+              <a href="#">蜀ICP备14030149号-1</a>
+              &emsp;
+              &emsp;
+              <a href="#">蜀公网安备510114990541</a>
+          </p>
+      </div>
+      <div class="col-sm-2">
+          <p>官方微博:</p>
+          <div>
+              <img src="./images/tecent.png" alt="">
+          </div>
+          <div>
+              <img src="./images/sina.png" alt="">
+          </div>
+      </div>
+      <div class="col-sm-2">
+              <p>官方微信:</p>
+              <div>
+                  <img src="./images/wx.jpg" alt="">
+              </div>
+              
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+    <script src="./lib/jQuery/jquery.min.js"></script>
+    <script src="./lib/popper/popper.min.js"></script>
+    <script src="./lib/bootstrap4/JS/bootstrap.js"></script>
+    <script src="./lib/bootstrap4/JS/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
