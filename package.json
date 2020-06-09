@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "echarts": "^4.8.0",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
 }
